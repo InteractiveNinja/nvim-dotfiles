@@ -8,7 +8,9 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'glepnir/lspsaga.nvim'
+Plug 'akinsho/toggleterm.nvim', {'tag' : 'v2.*'}
 call plug#end()
 
 runtime ./plugins/lsp.lua
 runtime ./plugins/telescope.lua
+runtime ./plugins/terminal.lua
