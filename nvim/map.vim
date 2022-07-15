@@ -9,3 +9,5 @@ nnoremap <silent> <C-K> <cmd>Lspsaga signature_help<CR>
 
 nnoremap <silent><c-t> <Cmd>exe v:count1 . "ToggleTerm"<CR>
 tnoremap <Esc> <C-\><C-n>
+"NeoTree
+nnoremap <silent> <c-e> <cmd>Neotree<CR>
