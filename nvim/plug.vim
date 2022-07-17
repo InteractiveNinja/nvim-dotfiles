@@ -11,7 +11,10 @@ Plug 'glepnir/lspsaga.nvim'
 Plug 'akinsho/toggleterm.nvim', {'tag' : 'v2.*'}
 Plug 'MunifTanjim/nui.nvim' 
 Plug 'kyazdani42/nvim-web-devicons' 
-Plug 'nvim-neo-tree/neo-tree.nvim' 
+Plug 'nvim-neo-tree/neo-tree.nvim'
+Plug 'mhinz/vim-startify'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'preservim/nerdcommenter'
 call plug#end()
 
 runtime ./plugins/lsp.lua
