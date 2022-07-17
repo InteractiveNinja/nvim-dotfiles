@@ -15,8 +15,12 @@ Plug 'nvim-neo-tree/neo-tree.nvim'
 Plug 'mhinz/vim-startify'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/nerdcommenter'
+Plug 'windwp/nvim-autopairs'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 call plug#end()
 
 runtime ./plugins/lsp.lua
 runtime ./plugins/telescope.lua
 runtime ./plugins/terminal.lua
+runtime ./plugins/treesitter.lua
+runtime ./plugins/autopairs.lua
