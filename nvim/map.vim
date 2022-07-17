@@ -1,3 +1,6 @@
+" map leader key
+let mapleader = " " " map leader to Space
+
 " Normalmode
 nnoremap <silent> <space>, <cmd>nohlsearch<cr>
 " Telescope
